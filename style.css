@@ -95,7 +95,7 @@ div {
     display: inline-block;
     margin-left: 14px;
     margin-top: 25px;
-    display: inline-block ;
+    display: inline-block;
 }
 
 .fashion {
@@ -214,4 +214,177 @@ footer {
     position: absolute;
     margin-top: 45%;
     margin-left: 43%;
+}
+
+@media only screen and (max-width: 576px) {
+    .fotoprofil {
+        margin-left: 30px;
+        position: absolute;
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        margin-right: 0px;
+    }
+
+    ul {
+        margin-right: 10px;
+    }
+
+    li {
+        display: flexbox;
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 0px;
+        overflow: hidden;
+        padding-right: 5px;
+    }
+
+    input {
+        width: 85px;
+        float: right;
+        margin-left: 170px;
+    }
+
+    button {
+        margin-right: 10px;
+        margin-left: 5px;
+        width: 65px;
+        height: 40px;
+    }
+
+    .container {
+        margin-left: 10%;
+        width: 80%;
+        height: 580px;
+        border-radius: 40px;
+        background-color: #0f5fb5;
+        position: absolute;
+        margin-top: 100px;
+        display: flexbox;
+    }
+
+    div {
+        display: flex;
+        margin-left: 35px;
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+    .fashion {
+        background: url(/aset/Fashion.jpeg);
+        background-size: cover;
+        width: 150px;
+        height: 140px;
+        border-radius: 30px;
+        text-align: center;
+        align-content: center;
+        overflow: hidden;
+        transition: 0.3s ease-in;
+    }
+
+    label {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        color: bisque;
+        font-size: 30px;
+
+    }
+
+    .fashion:hover label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+    .shoes {
+        background: url(/aset/shoes.jpeg);
+        background-size: cover;
+        width: 150px;
+            height: 140px;
+        border-radius: 30px;
+        transition: 0.3s ease-in;
+        text-align: center;
+        align-content: center;
+        overflow: hidden;
+    }
+
+    .shoes:hover label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .watch {
+        background: url(/aset/watch.jpeg);
+        background-size: cover;
+        width: 150px;
+            height: 140px;
+        border-radius: 30px;
+        transition: 0.3s ease-in;
+        text-align: center;
+        align-content: center;
+        overflow: hidden;
+    }
+
+    .watch:hover label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .accesories {
+        background: url(/aset/accessories.jpeg);
+        background-size: cover;
+        width: 150px;
+            height: 140px;
+        border-radius: 30px;
+        transition: 0.3s ease-in;
+        text-align: center;
+        align-content: center;
+        overflow: hidden;
+    }
+
+    .accesories:hover label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .food {
+        background: url(/aset/food.jpeg);
+        background-size: cover;
+        width: 150px;
+            height: 140px;
+        border-radius: 30px;
+        transition: 0.3s ease-in;
+        text-align: center;
+        align-content: center;
+        overflow: hidden;
+    }
+
+    .food:hover label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .gadget {
+        background: url(/aset/gadget.jpeg);
+        background-size: cover;
+        width: 150px;
+            height: 140px;
+        border-radius: 30px;
+        transition: 0.3s ease-in;
+        text-align: center;
+        align-content: center;
+        overflow: hidden;
+    }
+
+    .gadget:hover label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    footer {
+        position: absolute;
+        margin-top: 90vh;
+        margin-left: 26%;
+    }
 }
