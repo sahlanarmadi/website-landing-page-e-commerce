@@ -108,22 +108,39 @@ div {
     align-content: center;
     overflow: hidden;
     transition: 0.3s ease-in;
+    display: flexbox;
+
+}
+
+.fashion #fashion {
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+}
+
+.fashion:hover #fashion {
+    opacity: 1;
+    transform: translateX(0%);
 }
 
 label {
     opacity: 0;
-    transform: translateX(-100%);
     transition: opacity 0.5s ease, transform 0.5s ease;
     color: bisque;
     font-size: 30px;
-
+    width: 50px;
 }
 
-.fashion:hover label {
+
+/* #fashion{
+    transform: translateX(-100%);
+    overflow: hidden;
+    transition: 0.9s ease;
+}
+
+#fashion:hover {
     opacity: 1;
-    transform: translateX(0);
-}
-
+    transform: translateX(0%);
+} */
 
 .shoes {
     background: url(shoes.jpeg);
@@ -140,6 +157,16 @@ label {
 .shoes:hover label {
     opacity: 1;
     transform: translateX(0);
+}
+
+.shoes #shoes {
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+}
+
+.shoes:hover #shoes {
+    opacity: 1;
+    transform: translateX(0%);
 }
 
 .watch {
@@ -159,6 +186,16 @@ label {
     transform: translateX(0);
 }
 
+.watch #watch {
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+}
+
+.watch:hover #watch {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
 .accesories {
     background: url(accessories.jpeg);
     background-size: cover;
@@ -174,6 +211,16 @@ label {
 .accesories:hover label {
     opacity: 1;
     transform: translateX(0);
+}
+
+.accesories #accesories {
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+}
+
+.accesories:hover #accesories {
+    opacity: 1;
+    transform: translateX(0%);
 }
 
 .food {
@@ -193,6 +240,16 @@ label {
     transform: translateX(0);
 }
 
+.food #food {
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+}
+
+.food:hover #food {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
 .gadget {
     background: url(gadget.jpeg);
     background-size: cover;
@@ -208,6 +265,16 @@ label {
 .gadget:hover label {
     opacity: 1;
     transform: translateX(0);
+}
+
+.gadget #gadget {
+    transform: translateX(-100%);
+    transition: 0.3s ease-in;
+}
+
+.gadget:hover #gadget {
+    opacity: 1;
+    transform: translateX(0%);
 }
 
 footer {
