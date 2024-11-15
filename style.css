@@ -572,7 +572,7 @@ footer {
         background: url(watch.jpeg);
         background-size: cover;
         width: 40%;
-            height: 20%;
+        height: 20%;
         border-radius: 30px;
         transition: 0.3s ease-in;
         text-align: center;
@@ -600,7 +600,7 @@ footer {
         background: url(accessories.jpeg);
         background-size: cover;
         width: 40%;
-            height: 20%;
+        height: 20%;
         border-radius: 30px;
         transition: 0.3s ease-in;
         text-align: center;
@@ -628,7 +628,7 @@ footer {
         background: url(food.jpeg);
         background-size: cover;
         width: 40%;
-            height: 20%;px;
+        height: 20%;
         transition: 0.3s ease-in;
         text-align: center;
         align-content: center;
@@ -655,7 +655,7 @@ footer {
         background: url(gadget.jpeg);
         background-size: cover;
         width: 40%;
-            height: 20%;
+        height: 20%;
         border-radius: 30px;
         transition: 0.3s ease-in;
         text-align: center;
